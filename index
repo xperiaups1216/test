@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="D10419101劉東霖" http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>作業三</title>
+
+
+<style>@import url("./css/Hw03.css");</style>
+<script src="./javascript/showhide.js" type="text/javascript"></script> 
+
+</head>
+
+<body background="./pic/Hw03_bg.jpg">
+
+<h1 align="center">
+<img src="./pic/Hw03_gif1.gif" alt="gif圖1" width="50px" height="50px">
+105學年二下個人課表
+<img src="./pic/Hw03_gif2.gif" alt="gif圖2" width="50px" height="50px"></h1>
+
+<b>學號:D10419101&emsp;姓名:劉東霖</b><br>
+
+網頁原始碼:
+<button onclick="change()" id="a1">檢視</button>&emsp;
+
+CSS原始碼:
+<button onclick="change2()" id="a2">檢視</button>&emsp;
+
+JavaScript原始碼:
+<button onclick="change3()" id="a3">檢視</button>&emsp;
+
+<div id="d1" style="height:300px; display: none;"> 
+  <script src="https://gist.github.com/anonymous/f73018875eaaf1adc0cc8ad8b361d566.js"></script>
+</div>
+
+<div id="d2" style="height:300px; display: none;"> 
+  <script src="https://gist.github.com/anonymous/b033d860f47abc6ee898d12060af763c.js"></script>
+</div>
+
+<div id="d3" style="height:300px; display: none;"> 
+  <script src="https://gist.github.com/anonymous/499777442f3d48c58dd9177499056ebc.js"></script>
+</div>
+
+<hr>
+
+<div align="center">
+  <table border="0" width="90%" cellspacing="1"  style="border:3px #FFAC55 dashed;">
+    <tr class="row">
+      <td width="12%" align="center" bgcolor="#00CBFF"></td>
+      <td width="12%" align="center">星期一</td>
+      <td width="12%" align="center">星期二</td>
+      <td width="12%" align="center">星期三</td>
+      <td width="12%" align="center">星期四</td>
+      <td width="12%" align="center">星期五</td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="row">第 1 節<br>
+        0820-0910</td>
+      <td width="12%" align="center" class="col" colspan="2">..</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D920609&syear=105&ssem=2&sbjno=9220230"><span>環境與永續發展</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A304&Year=105&Sem=2">A304</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0003619&Year=105&Sem=2">吳劍蘭</a><br>
+        【<span class="score2">通識</span>】2學分</td>
+      <td width="12%" align="center" class="col">.</td>
+      <td width="12%" align="center" class="col" rowspan="4">....</td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="row">第 2 節<br>
+        0920-1010</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192114&syear=105&ssem=2&sbjno=1920195"><span>射頻辨識系統應用</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=C302&Year=105&Sem=2">C302</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0003075&Year=105&Sem=2">江政杰</a><br>
+        【<span class="score2">選修</span>】3學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192106&syear=105&ssem=2&sbjno=1920144"><span>資料結構</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A412&Year=105&Sem=2">A412</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004230&Year=105&Sem=2">張正弘</a><br>
+        【<span class="score1">必修</span>】2學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D920609&syear=105&ssem=2&sbjno=9220230"><span>環境與永續發展</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A304&Year=105&Sem=2">A304</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0003619&Year=105&Sem=2">吳劍蘭</a><br>
+        【<span class="score2">通識</span>】2學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192107&syear=105&ssem=2&sbjno=1920136"><span>數位邏輯</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A412&Year=105&Sem=2">A412</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004306&Year=105&Sem=2">顏嘉良</a><br>
+        【<span class="score1">必修</span>】3學分</td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="row">第 3 節<br>
+        1020-1110</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192114&syear=105&ssem=2&sbjno=1920195"><span>射頻辨識系統應用</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=C302&Year=105&Sem=2">C302</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0003075&Year=105&Sem=2">江政杰</a><br>
+        【<span class="score2">選修</span>】3學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192106&syear=105&ssem=2&sbjno=1920144"><span>資料結構</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A412&Year=105&Sem=2">A412</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004230&Year=105&Sem=2">張正弘</a><br>
+        【<span class="score1">必修</span>】2學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192115&syear=105&ssem=2&sbjno=9220277"><span>國際思維與多元文化</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=C303&Year=105&Sem=2">C303</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0007919&Year=105&Sem=2">魏澤民</a><br>
+        【<span class="score1">必修</span>】1學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192107&syear=105&ssem=2&sbjno=1920136"><span>數位邏輯</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A412&Year=105&Sem=2">A412</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004306&Year=105&Sem=2">顏嘉良</a><br>
+        【<span class="score1">必修</span>】3學分</td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="row">第 4 節<br>
+        1120-1210</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192114&syear=105&ssem=2&sbjno=1920195"><span>射頻辨識系統應用</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=C302&Year=105&Sem=2">C302</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0003075&Year=105&Sem=2">江政杰</a><br>
+        【<span class="score2">選修</span>】3學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192106&syear=105&ssem=2&sbjno=1920144"><span>資料結構</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A412&Year=105&Sem=2">A412</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004230&Year=105&Sem=2">張正弘</a><br>
+        【<span class="score1">必修</span>】2學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192115&syear=105&ssem=2&sbjno=9220277"><span>國際思維與多元文化</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=C303&Year=105&Sem=2">C303</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0007919&Year=105&Sem=2">魏澤民</a><br>
+        【<span class="score1">必修</span>】1學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192107&syear=105&ssem=2&sbjno=1920136"><span>數位邏輯</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A412&Year=105&Sem=2">A412</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004306&Year=105&Sem=2">顏嘉良</a><br>
+        【<span class="score1">必修</span>】3學分</td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="lunch"><p>第 5 節<br>
+          1210-1320 </p></td>
+      <td width="12%" align="center" class="lunch" colspan="5"><br>
+        .<br>
+        <br></td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="row">第 6 節<br>
+        1320-1410</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D932102&syear=105&ssem=2&sbjno=9320019"><span>體育-桌球</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=E105&Year=105&Sem=2">E105</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004862&Year=105&Sem=2">丁國強</a><br>
+        【<span class="score1">必修</span>】0學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192111&syear=105&ssem=2&sbjno=1920022"><span>軟體工程</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A508&Year=105&Sem=2">A508</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0003075&Year=105&Sem=2">江政杰</a><br>
+        【<span class="score2">選修</span>】3學分</td>
+      <td width="12%" align="center" class="col" rowspan="4">....</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D222113&syear=105&ssem=2&sbjno=2220106"><span>網站建置</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A511&Year=105&Sem=2">A511</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0007672&Year=105&Sem=2">黃建富</a><br>
+        【<span class="score2">選修</span>】2學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192109&syear=105&ssem=2&sbjno=1920201"><span>HTML5跨平台程式開發</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A310&Year=105&Sem=2">A310</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004307&Year=105&Sem=2">藍國桐</a><br>
+        【<span class="score1">必修</span>】3學分</td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="row">第 7 節<br>
+        1420-1510</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D932102&syear=105&ssem=2&sbjno=9320019"><span>體育-桌球</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=E105&Year=105&Sem=2">E105</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004862&Year=105&Sem=2">丁國強</a><br>
+        【<span class="score1">必修</span>】0學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192111&syear=105&ssem=2&sbjno=1920022"><span>軟體工程</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A508&Year=105&Sem=2">A508</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0003075&Year=105&Sem=2">江政杰</a><br>
+        【<span class="score2">選修</span>】3學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D222113&syear=105&ssem=2&sbjno=2220106"><span>網站建置</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A511&Year=105&Sem=2">A511</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0007672&Year=105&Sem=2">黃建富</a><br>
+        【<span class="score2">選修</span>】2學分</td>
+      <td width="12%" align="center" class="col">
+      <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192109&syear=105&ssem=2&sbjno=1920201"><span>HTML5跨平台程式開發</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A310&Year=105&Sem=2">A310</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004307&Year=105&Sem=2">藍國桐</a><br>
+        【<span class="score1">必修</span>】3學分</td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="row">第 8 節<br>
+        1520-1610</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D212201&syear=105&ssem=2&sbjno=9220244"><span>大二英文A班</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=C504&Year=105&Sem=2">C504</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0006856&Year=105&Sem=2">許大維</a><br>
+        【<span class="score1">必修</span>】2學分</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192111&syear=105&ssem=2&sbjno=1920022"><span>軟體工程</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A508&Year=105&Sem=2">A508</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0003075&Year=105&Sem=2">江政杰</a><br>
+        【<span class="score2">選修</span>】3學分</td>
+      <td width="12%" align="center" class="col" rowspan="2">..</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D192109&syear=105&ssem=2&sbjno=1920201"><span>HTML5跨平台程式開發</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=A310&Year=105&Sem=2">A310</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0004307&Year=105&Sem=2">藍國桐</a><br>
+        【<span class="score1">必修</span>】3學分</td>
+    </tr>
+    
+    <tr>
+      <td width="12%" align="center" class="row">第 9 節<br>
+        1620-1710</td>
+      <td width="12%" align="center" class="col">
+        <a href="http://netinfo.takming.edu.tw/tip/comm_crsquery.php?OpNo=D212201&syear=105&ssem=2&sbjno=9220244"><span>大二英文A班</span></a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_room.php?Room=C504&Year=105&Sem=2">C504</a><br>
+        <a href="http://netinfo.takming.edu.tw/tip/comm_teach.php?Teacher=0006856&Year=105&Sem=2">許大維</a><br>
+        【<span class="score1">必修</span>】2學分</td>
+      <td width="12%" align="center" class="col">.</td>
+      <td width="12%" align="center" class="col">.</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
